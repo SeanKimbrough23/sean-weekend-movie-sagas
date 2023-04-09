@@ -1,7 +1,7 @@
 import "./App.css";
-import AddMovie from "../AddMovie/AddMovie";
+import AddMovies from "../AddMovies/AddMovies";
 import MovieList from "../MovieList/MovieList";
-import Details from "../Details/Details";
+import MovieDetails from "../MovieDetails/MovieDetails";
 
 function App() {
   return (
@@ -20,12 +20,11 @@ function App() {
 
         {/* Add Movie page */}
         <Route path="/addMovie" exact>
-          <AddMovie />
+          <AddMovies />
         </Route>
       </Router>
     </div>
   );
 }
-g;
 
 export default App;
